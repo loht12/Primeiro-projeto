@@ -20,7 +20,7 @@ resto_divisao = num1 % num2 % num3
 
 potenciacao = num1 ** num2 ** num3
 
-##Operacoes
+##Operações da matematica##
 
 soma = num1 +num2 + num3
 print(f"A soma de  {num1} e {num2} e {num3} é igual a = {soma}")
