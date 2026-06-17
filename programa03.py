@@ -41,4 +41,4 @@ resto_divisao = num1 % num2 % num3
 print (f"O resto_divisao de {num1} e {num2} e {num3} é igual a = {resto_divisao}")
 
 potenciacao = num1 ** num2 ** num3
-print (f"A potenciacao de {num1} e {num2} e {num3} é igual a = {potenciacao}")
+print (f"A potenciacao de {num1} e {num2} e {num3} é igual a = {potenciacao}") 
