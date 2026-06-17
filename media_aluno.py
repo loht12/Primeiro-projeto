@@ -20,10 +20,13 @@ elif media >= 3 and media < 7:
     if fez_recuperacao == "s":
         nota_recuperacao = float(input("Digite a nota da recuperação: "))
         if nota_recuperacao >= 5:
-            print("Aluno(a) aprovado pela recuperação")
+            print("Aluno(a) aprovado pela recuperação.")
+            print("Parabéns por passar! ")
         else:
             print("Aluno(a) não obteve nota suficiente para ser aprovado após a recuperação.")
-
+    else:
+        print("Aluno(a) ainda não fez a recuperação.")
 else:
     print(f"Aluno(a) Reprovado(a) com media{media:.2f} ")
+
 
