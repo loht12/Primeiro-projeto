@@ -7,6 +7,6 @@ elif idade_atleta <= 14 :
 elif idade_atleta <= 19 :
     print ("Junior.")
 elif idade_atleta <= 25 :
-    print ("Sênior")
+    print ("Sênior.")
 else:
     print("Master.")
