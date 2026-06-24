@@ -1,5 +1,11 @@
-#tabuada
-num = int(input("Digite o numero que voce deseja ver a tabuada:"))
+continuar = "S"
 
-for i in range (1,151):
-    print (f"{num} x {i} = {num*i}")
+while continuar.lower() == "s":
+    num =float(input("Digite um numero:"))
+    print (num % 2)
+    if num % 2 == 0:
+        print("PAR")
+    else:
+        print("IMPAR")
+
+    continuar = input("Deseja continuar?")

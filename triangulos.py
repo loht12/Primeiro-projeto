@@ -1,4 +1,3 @@
-from traceback import print_tb
 
 comprimento_A = float(input("Digite o comprimento l1 :"))
 comprimento_B = float(input("Digite o comprimento l2:"))
