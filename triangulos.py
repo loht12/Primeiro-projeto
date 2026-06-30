@@ -8,8 +8,8 @@ if comprimento_A + comprimento_B < comprimento_C or comprimento_A + comprimento_
 else:
     print ("Triangulo valido")
     if comprimento_A == comprimento_B == comprimento_C:
-        print ("Todos os lados iguais,Equilátero:")
+        print ("Todos os lados iguais,Equilátero.")
     elif comprimento_A == comprimento_B or comprimento_A==comprimento_C or comprimento_B == comprimento_C:
-        print ("Dois lados iguais,Isósceles:")
+        print ("Dois lados iguais,Isósceles.")
     else:
-        print ("Todos os lados diferentes,Escaleno:")
+        print ("Todos os lados diferentes,Escaleno.")
