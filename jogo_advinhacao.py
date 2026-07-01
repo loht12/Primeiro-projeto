@@ -5,7 +5,7 @@ from selectors import SelectSelector
 num_digitado = int(input("Digite um número:"))
 
 numero_gerado = random.randint (1,20)
-print (f"Número secreto {numero_gerado}")
+print (f"Número secreto {numero_gerado}.")
 
 if num_digitado == numero_gerado :
     print("Parabéns voce acertou.")

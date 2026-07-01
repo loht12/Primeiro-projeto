@@ -14,5 +14,5 @@ print (lista_frutas[escolha])
 continuar = input("Quer continuar?")
 
 while continuar == "s":
-    print("maca","melao","banana","goiaba","melancia","bergamota","laranja")
+    print("maca","melao","banana","goiaba","melancia","bergamota","laranja.")
 
